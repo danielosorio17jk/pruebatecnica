@@ -20,6 +20,10 @@ public class ClientePk implements Serializable {
 	@Column(name = "DOCUMENTO")
 	private int documento;
 	
+	public ClientePk() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public String getTipoDocumento() {
 		return tipoDocumento;
 	}

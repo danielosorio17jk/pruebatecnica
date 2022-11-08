@@ -42,6 +42,10 @@ public class Cliente {
 	@Column(name = "EMAIL", length = 100)
 	private String email;
 	
+	public Cliente() {
+		// TODO Auto-generated constructor stub
+	}
+	
 	public ClientePk getPk() {
 		return pk;
 	}
